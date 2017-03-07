@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_user_details_username"
+        android:text="faladinojames"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_user_details_picture"
+        android:contentDescription="@string/content_desc_picture"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textColorLink="#0ad468"
+        android:id="@+id/tv_user_details_github_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_user_details_share"
+        android:text="@string/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
